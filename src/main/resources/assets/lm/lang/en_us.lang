@@ -3,7 +3,7 @@
 item.ground_lamp.name=ground lamp
 
 //Blocks
-tile.ground_lamp_block.name=ground lamp Block
+tile.ground_lamp_block.name=Lantern
 
 //Food
 item.eatable_latern.name=Eatable Lantern
