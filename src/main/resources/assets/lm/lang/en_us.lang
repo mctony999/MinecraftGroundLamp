@@ -1,0 +1,9 @@
+
+//Items
+item.ground_lamp.name=ground lamp
+
+//Blocks
+tile.ground_lamp_block.name=ground lamp Block
+
+//Food
+item.eatable_latern.name=Eatable Lantern

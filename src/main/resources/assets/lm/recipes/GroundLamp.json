@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#T#",
+        "iii"
+    ],
+    
+    "key": {
+        "#": {
+            "item": "minecraft:iron_nugget" 
+        },
+        "T": {
+            "item": "minecraft:torch"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": 
+    {
+        "item": "lm:ground_lamp_block",
+        "count": 1
+    }
+}
