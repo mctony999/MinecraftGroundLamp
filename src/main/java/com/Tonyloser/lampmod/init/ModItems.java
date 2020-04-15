@@ -7,6 +7,7 @@ import com.Tonyloser.lampmod.items.ItemBase;
 import com.Tonyloser.lampmod.items.food.FoodBase;
 import com.Tonyloser.lampmod.items.food.FoodEffectBase;
 
+import net.minecraft.block.material.Material;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.potion.PotionEffect;
@@ -17,7 +18,6 @@ public class ModItems
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item GROUND_LAMP = new ItemBase("ground_lamp");
-	
 	
 	//Food
 	//public static final Item EVIL_APPLE = new FoodBase("evil_apple", 4, 2.4f, false);

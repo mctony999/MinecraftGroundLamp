@@ -1,0 +1,86 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "ground_lamp_block": "lm:blocks/ground_lamp_block",
+        "particle": "lm:blocks/ground_lamp_block"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 1.2, 1.2, 1.2 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.6, 0.6, 0.6 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 1.5 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Body",
+            "from": [ 5, 0, 5 ], 
+            "to": [ 11, 7, 11 ], 
+            "faces": {
+                "north": { "texture": "#ground_lamp_block", "uv": [ 0, 2, 6, 9 ] },
+                "east": { "texture": "#ground_lamp_block", "uv": [ 0, 2, 6, 9 ] },
+                "south": { "texture": "#ground_lamp_block", "uv": [ 0, 2, 6, 9 ] },
+                "west": { "texture": "#ground_lamp_block", "uv": [ 0, 2, 6, 9 ] },
+                "up": { "texture": "#ground_lamp_block", "uv": [ 0, 9, 6, 15 ] },
+                "down": { "texture": "#ground_lamp_block", "uv": [ 0, 9, 6, 15 ] }
+            }
+        },
+        {
+            "name": "Head",
+            "from": [ 6, 7, 6 ], 
+            "to": [ 10, 9, 10 ], 
+            "faces": {
+                "north": { "texture": "#ground_lamp_block", "uv": [ 1, 0, 5, 2 ] },
+                "east": { "texture": "#ground_lamp_block", "uv": [ 1, 0, 5, 2 ] },
+                "south": { "texture": "#ground_lamp_block", "uv": [ 1, 0, 5, 2 ] },
+                "west": { "texture": "#ground_lamp_block", "uv": [ 1, 0, 5, 2 ] },
+                "up": { "texture": "#ground_lamp_block", "uv": [ 1, 10, 5, 14 ] }
+            }
+        },
+        {
+            "name": "Chain_part",
+            "from": [ 6.6, 9, 8 ], 
+            "to": [ 9.4, 11, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#ground_lamp_block", "uv": [ 11, 10, 13.8, 12 ] },
+                "south": { "texture": "#ground_lamp_block", "uv": [ 11, 10, 13.8, 12 ] }
+            }
+        },
+        {
+            "name": "Chain_part2",
+            "from": [ 6.6, 9, 8 ], 
+            "to": [ 9.4, 11, 8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#ground_lamp_block", "uv": [ 11, 10, 13.8, 12 ] },
+                "south": { "texture": "#ground_lamp_block", "uv": [ 11, 10, 13.8, 12 ] }
+            }
+        }
+    ]
+}

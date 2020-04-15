@@ -1,19 +1,25 @@
 package com.Tonyloser.lampmod.util.handlers;
 
+import com.Tonyloser.lampmod.Main;
 import com.Tonyloser.lampmod.init.ModBlocks;
 import com.Tonyloser.lampmod.init.ModItems;
+import com.Tonyloser.lampmod.tileentity.TileEntityHang;
 import com.Tonyloser.lampmod.util.IHasModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.world.World;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.registries.IForgeRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler 
 {
+	
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
 	{
@@ -45,4 +51,12 @@ public class RegistryHandler
 			}
 		}
 	}
+	
+	public static void initRegisteries() 
+	{
+		SoundsHandler.registerSounds();
+	}
+	
+
+	
 }

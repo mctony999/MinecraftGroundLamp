@@ -1,5 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "lm:ground_lamp_block" }
+        "hanging=false": { "model": "lm:lantern_land" },
+        "hanging=true"  : { "model": "lm:lantern_hang"}
     }
 }
